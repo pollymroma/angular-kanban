@@ -1,0 +1,23 @@
+// Bulma styles and variables go here
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Lato:400,800,900');
+
+$family-sans-serif: "Nunito", sans-serif;
+
+//Component variables
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
+
+//Global styles
+html, body {
+  height: 100%;
+}
+
+//Set a background image (put image in assets folder)
+html {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+  overflow-y: auto !important;
+}
